@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: micro-user
+
+server:
+  port: 8001
+  servlet:
+    context-path: /api
