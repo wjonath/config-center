@@ -3,11 +3,11 @@ spring:
     stream:
       kafka:
         binder:
-          brokers: 192.168.146.128:9092
-          zkNodes: 192.168.146.128:2181, localhost:2181
+          brokers: centos:9092
+          zkNodes: centos:2181, localhost:2181
   redis:
     database: 0
-    host: 192.168.146.128
+    host: centos
     password: ''
     jedis:
       pool:
